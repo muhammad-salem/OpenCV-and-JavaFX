@@ -1,0 +1,8 @@
+OpenCv Install Folder:
+	C:\opencv\
+
+
+* Add this Paths to System Paths *
+
+In Windos:
+	C:\opencv\build\java\x64;C:\opencv\build\x64\vc11\bin;

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="dark-blue" prefHeight="475.0" prefWidth="880.0" stylesheets="@css/JMetroLightTheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.AppController">
+
+	<children>
+		<Button id="" fx:id="" layoutX="244.0" layoutY="24.0" mnemonicParsing="false" onAction="#fromPictures" prefHeight="48.0" prefWidth="48.0" AnchorPane.topAnchor="25.0">
+			<graphic>
+				<ImageView id="" fx:id="imgPicture" fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" />
+			</graphic>
+		</Button>
+		<Button fx:id="" layoutX="344.0" layoutY="24.0" mnemonicParsing="false" onAction="#readMedia" prefHeight="48.0" prefWidth="48.0" AnchorPane.topAnchor="25.0">
+			<graphic>
+				<ImageView fx:id="imgVideo" fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" />
+			</graphic>
+		</Button>
+		<Button fx:id="" layoutX="444.0" layoutY="24.0" mnemonicParsing="false" onAction="#click" prefHeight="48.0" prefWidth="48.0" AnchorPane.topAnchor="25.0">
+			<graphic>
+				<ImageView fx:id="imgCam" fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" />
+			</graphic>
+		</Button>
+		<Button id="" layoutX="544.0" layoutY="24.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="48.0" AnchorPane.topAnchor="25.0">
+<graphic><ImageView fx:id="imgSave" fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" />
+</graphic></Button><CheckBox id="" fx:id="faceBox" layoutX="34.0" layoutY="122.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="170.0" selected="true" text="CheckBox" /><CheckBox fx:id="eyeBox" layoutX="34.0" layoutY="155.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="170.0" text="CheckBox" /><CheckBox fx:id="mouthBox" layoutX="34.0" layoutY="187.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="170.0" text="CheckBox" /><CheckBox fx:id="noseBox" layoutX="34.0" layoutY="220.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="170.0" text="CheckBox" /><CheckBox fx:id="leftEarBox" layoutX="34.0" layoutY="252.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="170.0" text="CheckBox" /><CheckBox fx:id="rightEarBox" layoutX="34.0" layoutY="285.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="170.0" text="CheckBox" /><CheckBox fx:id="upperBodyBox" layoutX="34.0" layoutY="316.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="170.0" text="CheckBox" />
+<ImageView id="" fx:id="imageView" fitHeight="360.0" fitWidth="640.0" layoutX="225.0" layoutY="100.0" nodeOrientation="LEFT_TO_RIGHT" pickOnBounds="true" preserveRatio="true" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<image>
+<Image smooth="true" url="@../img/Utility.png" />
+</image>
+</ImageView>
+	</children>
+</AnchorPane>
